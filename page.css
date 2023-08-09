@@ -1,0 +1,66 @@
+.thumbnail {
+    width: 100%;
+}
+
+.page-author {
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+
+.page-preview {
+    width: 600px;
+    display: block;
+    align-content: center;
+    margin-bottom: 15px;
+    background-color: black;
+    border-radius: 15px;
+    padding: 24px;
+    
+}
+
+.page-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.channel-picture{
+}
+
+.page-info{
+
+}
+
+.profile-picture {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.thumbnail-row{
+    margin-bottom: 12px;
+    
+}
+
+.page-title,
+.page-stats{
+    font-size: 18px;
+    color:rgb(96, 96, 96);
+    margin-bottom: 16px;
+}
+
+.page-grid {
+    display: flex
+    flex-shrink: 1;
+    padding-right: 32px;
+    justify-content: center;
+    padding-left: 32px;
+    flex-direction: column;
+    max-width: 0;
+    box-sizing: border-box;
+    align-items: stretch;
+    position: relative;
+    z-index: 0;
+    top: 100px;
+}
